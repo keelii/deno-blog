@@ -1,0 +1,190 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@std/dotenv@*": "0.225.5",
+    "jsr:@std/fmt@^1.0.5": "1.0.6",
+    "jsr:@std/fs@*": "1.0.16",
+    "jsr:@std/fs@^1.0.11": "1.0.16",
+    "jsr:@std/html@*": "1.0.3",
+    "jsr:@std/io@~0.225.2": "0.225.2",
+    "jsr:@std/log@*": "0.224.14",
+    "jsr:@std/path@*": "1.0.8",
+    "jsr:@std/path@^1.0.8": "1.0.8",
+    "jsr:@std/yaml@*": "1.0.9",
+    "npm:markdown-it-anchor@*": "9.2.0_@types+markdown-it@14.1.2_markdown-it@14.1.0",
+    "npm:markdown-it-footnote@*": "4.0.0",
+    "npm:markdown-it-toc-done-right@*": "4.2.0",
+    "npm:markdown-it@*": "14.1.0",
+    "npm:preact-render-to-string@*": "6.5.13_preact@10.27.0",
+    "npm:preact@*": "10.27.0",
+    "npm:preact@^10.27.0": "10.27.0",
+    "npm:prismjs@*": "1.30.0"
+  },
+  "jsr": {
+    "@std/dotenv@0.225.5": {
+      "integrity": "9ce6f9d0ec3311f74a32535aa1b8c62ed88b1ab91b7f0815797d77a6f60c922f"
+    },
+    "@std/fmt@1.0.6": {
+      "integrity": "a2c56a69a2369876ddb3ad6a500bb6501b5bad47bb3ea16bfb0c18974d2661fc"
+    },
+    "@std/fs@1.0.16": {
+      "integrity": "81878f62b6eeda0bf546197fc3daa5327c132fee1273f6113f940784a468b036",
+      "dependencies": [
+        "jsr:@std/path@^1.0.8"
+      ]
+    },
+    "@std/html@1.0.3": {
+      "integrity": "7a0ac35e050431fb49d44e61c8b8aac1ebd55937e0dc9ec6409aa4bab39a7988"
+    },
+    "@std/io@0.225.2": {
+      "integrity": "3c740cd4ee4c082e6cfc86458f47e2ab7cb353dc6234d5e9b1f91a2de5f4d6c7"
+    },
+    "@std/log@0.224.14": {
+      "integrity": "257f7adceee3b53bb2bc86c7242e7d1bc59729e57d4981c4a7e5b876c808f05e",
+      "dependencies": [
+        "jsr:@std/fmt",
+        "jsr:@std/fs@^1.0.11",
+        "jsr:@std/io"
+      ]
+    },
+    "@std/path@1.0.8": {
+      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    },
+    "@std/yaml@1.0.9": {
+      "integrity": "6bad3dc766dd85b4b37eabcba81b6aa4eac7a392792ae29abcfb0f90602d55bb"
+    }
+  },
+  "npm": {
+    "@types/linkify-it@5.0.0": {
+      "integrity": "21413001973106cda1c3a9b91eedd4ccd5469d76",
+      "tarball": "http://registry.m.jd.com/@types/linkify-it/download/@types/linkify-it-5.0.0.tgz"
+    },
+    "@types/markdown-it@14.1.2": {
+      "integrity": "57f2532a0800067d9b934f3521429a2e8bfb4c61",
+      "dependencies": [
+        "@types/linkify-it",
+        "@types/mdurl"
+      ],
+      "tarball": "http://registry.m.jd.com/@types/markdown-it/download/@types/markdown-it-14.1.2.tgz"
+    },
+    "@types/mdurl@2.0.0": {
+      "integrity": "d43878b5b20222682163ae6f897b20447233bdfd",
+      "tarball": "http://registry.m.jd.com/@types/mdurl/download/@types/mdurl-2.0.0.tgz"
+    },
+    "argparse@2.0.1": {
+      "integrity": "246f50f3ca78a3240f6c997e8a9bd1eac49e4b38",
+      "tarball": "http://registry.m.jd.com/argparse/download/argparse-2.0.1.tgz"
+    },
+    "entities@4.5.0": {
+      "integrity": "5d268ea5e7113ec74c4d033b79ea5a35a488fb48",
+      "tarball": "http://registry.m.jd.com/entities/download/entities-4.5.0.tgz"
+    },
+    "linkify-it@5.0.0": {
+      "integrity": "9ef238bfa6dc70bd8e7f9572b52d369af569b421",
+      "dependencies": [
+        "uc.micro"
+      ],
+      "tarball": "http://registry.m.jd.com/linkify-it/download/linkify-it-5.0.0.tgz"
+    },
+    "markdown-it-anchor@9.2.0_@types+markdown-it@14.1.2_markdown-it@14.1.0": {
+      "integrity": "89375d9a2a79336403ab7c4fd36b1965cc45e5c8",
+      "dependencies": [
+        "@types/markdown-it",
+        "markdown-it"
+      ],
+      "tarball": "http://registry.m.jd.com/markdown-it-anchor/download/markdown-it-anchor-9.2.0.tgz"
+    },
+    "markdown-it-footnote@4.0.0": {
+      "integrity": "02ede0cb68a42d7e7774c3abdc72d77aaa24c531",
+      "tarball": "http://registry.m.jd.com/markdown-it-footnote/download/markdown-it-footnote-4.0.0.tgz"
+    },
+    "markdown-it-toc-done-right@4.2.0": {
+      "integrity": "3ccdce22d5022ffae7b991d07261b1b1de5459d0",
+      "tarball": "http://registry.m.jd.com/markdown-it-toc-done-right/download/markdown-it-toc-done-right-4.2.0.tgz"
+    },
+    "markdown-it@14.1.0": {
+      "integrity": "3c3c5992883c633db4714ccb4d7b5935d98b7d45",
+      "dependencies": [
+        "argparse",
+        "entities",
+        "linkify-it",
+        "mdurl",
+        "punycode.js",
+        "uc.micro"
+      ],
+      "bin": true,
+      "tarball": "http://registry.m.jd.com/markdown-it/download/markdown-it-14.1.0.tgz"
+    },
+    "mdurl@2.0.0": {
+      "integrity": "80676ec0433025dd3e17ee983d0fe8de5a2237e0",
+      "tarball": "http://registry.m.jd.com/mdurl/download/mdurl-2.0.0.tgz"
+    },
+    "preact-render-to-string@6.5.13_preact@10.27.0": {
+      "integrity": "cb9eb4a0df3576e7bfd78ef5f3d3bd57480e79ee",
+      "dependencies": [
+        "preact"
+      ],
+      "tarball": "http://registry.m.jd.com/preact-render-to-string/download/preact-render-to-string-6.5.13.tgz"
+    },
+    "preact@10.27.0": {
+      "integrity": "7e614fb651cc1f49275bfb7682e811d759a5364f",
+      "tarball": "http://registry.m.jd.com/preact/download/preact-10.27.0.tgz"
+    },
+    "prismjs@1.30.0": {
+      "integrity": "d9709969d9d4e16403f6f348c63553b19f0975a9",
+      "tarball": "http://registry.m.jd.com/prismjs/download/prismjs-1.30.0.tgz"
+    },
+    "punycode.js@2.3.1": {
+      "integrity": "6b53e56ad75588234e79f4affa90972c7dd8cdb7",
+      "tarball": "http://registry.m.jd.com/punycode.js/download/punycode.js-2.3.1.tgz"
+    },
+    "uc.micro@2.1.0": {
+      "integrity": "f8d3f7d0ec4c3dea35a7e3c8efa4cb8b45c9e7ee",
+      "tarball": "http://registry.m.jd.com/uc.micro/download/uc.micro-2.1.0.tgz"
+    }
+  },
+  "redirects": {
+    "https://esm.sh/prismjs/components/prism-bash?no-check&pin=v57": "https://esm.sh/prismjs@1.30.0/components/prism-bash?no-check&pin=v57",
+    "https://esm.sh/prismjs/components/prism-http?no-check&pin=v57": "https://esm.sh/prismjs@1.30.0/components/prism-http?no-check&pin=v57",
+    "https://esm.sh/prismjs/components/prism-java?no-check&pin=v57": "https://esm.sh/prismjs@1.30.0/components/prism-java?no-check&pin=v57",
+    "https://esm.sh/prismjs/components/prism-json?no-check&pin=v57": "https://esm.sh/prismjs@1.30.0/components/prism-json?no-check&pin=v57",
+    "https://esm.sh/prismjs/components/prism-jsx?no-check&pin=v57": "https://esm.sh/prismjs@1.30.0/components/prism-jsx?no-check&pin=v57",
+    "https://esm.sh/prismjs/components/prism-makefile?no-check&pin=v57": "https://esm.sh/prismjs@1.30.0/components/prism-makefile?no-check&pin=v57",
+    "https://esm.sh/prismjs/components/prism-python?no-check&pin=v57": "https://esm.sh/prismjs@1.30.0/components/prism-python?no-check&pin=v57",
+    "https://esm.sh/prismjs/components/prism-typescript?no-check&pin=v57": "https://esm.sh/prismjs@1.30.0/components/prism-typescript?no-check&pin=v57",
+    "https://esm.sh/prismjs/components/prism-vim?no-check&pin=v57": "https://esm.sh/prismjs@1.30.0/components/prism-vim?no-check&pin=v57",
+    "https://esm.sh/sax@^1.2.4?target=denonext": "https://esm.sh/sax@1.4.1?target=denonext",
+    "https://esm.sh/xml-js@^1.6.11?target=denonext": "https://esm.sh/xml-js@1.6.11?target=denonext"
+  },
+  "remote": {
+    "https://esm.sh/feed@4.2.2": "dca62237661ed6cf5ca20d97a9138cc5727054bb5d1f741676402e7e95446acb",
+    "https://esm.sh/feed@4.2.2/denonext/feed.mjs": "f61177a13d321ebe406b8c57004632d5dcb1bd366c57860e226668f41855ba12",
+    "https://esm.sh/prismjs@1.30.0/components/prism-bash?no-check&pin=v57": "7f65d990355fec19dcd01e03938b1daf7f5fa4ad8caaee60d7e700cb1d83c90a",
+    "https://esm.sh/prismjs@1.30.0/components/prism-http?no-check&pin=v57": "d1748ddf2f7661f882c14fb1544ec4628e11cac8b455fc875b38519ea67ed8f6",
+    "https://esm.sh/prismjs@1.30.0/components/prism-java?no-check&pin=v57": "685da9b1dc39a97d8ecdad13377f2707d95591444c8a36895bbf7b71893fb5e9",
+    "https://esm.sh/prismjs@1.30.0/components/prism-json?no-check&pin=v57": "7483e7a574ab0f53a921bdeac8065db7339d4a6962c088ae5ffcd97da9098ffb",
+    "https://esm.sh/prismjs@1.30.0/components/prism-jsx?no-check&pin=v57": "24ca61f889747d2fd80f5bba87a93c04c7b001c06e26d63f43987e7ab54867a5",
+    "https://esm.sh/prismjs@1.30.0/components/prism-makefile?no-check&pin=v57": "405322a5aec4727eac9b2ed49cd1a70eb2ef6bca413d1d8aeb3aca930fbad2b3",
+    "https://esm.sh/prismjs@1.30.0/components/prism-python?no-check&pin=v57": "dfb441b93f75fff8d9288a28e7e218e241b958b256dcd2622b42b7a677fc781d",
+    "https://esm.sh/prismjs@1.30.0/components/prism-typescript?no-check&pin=v57": "20ed7b3e0247b9dbbc6b5f3022440fc97a8e782e70b2949f3370db095b21961b",
+    "https://esm.sh/prismjs@1.30.0/components/prism-vim?no-check&pin=v57": "eb6e98b0982165baf096aaa0121455c403b1e64af6e28c0a4a29d21b4a0d20b4",
+    "https://esm.sh/sax@1.4.1/denonext/sax.mjs": "f6b76bfda979cf50ea49b0f4c36fdba9ac24c2f5261e31df0adb662f505ef277",
+    "https://esm.sh/sax@1.4.1?target=denonext": "e27842cb4e8dc59720f1f3df21075f69ddeb0b5c06bb055efcd72d1d59fefd79",
+    "https://esm.sh/v57/prismjs@1.30.0/denonext/components/prism-bash.js": "42e892b48ef45e7f25ee77f1d914cf61196eff53c0b6dc49e949a49d83274ff8",
+    "https://esm.sh/v57/prismjs@1.30.0/denonext/components/prism-http.js": "a843a38a59a35a256a4e01f19cd874d2c58f8d9e89ccf823d52ec7e2d788abef",
+    "https://esm.sh/v57/prismjs@1.30.0/denonext/components/prism-java.js": "913e630468d7c401a89e7e318e8dc2b3620d889bd49fa5e1a3deca79b7d4a048",
+    "https://esm.sh/v57/prismjs@1.30.0/denonext/components/prism-json.js": "7aa6017863ec752f0fb5ad067e4477426c8b6eb00053c34e2576b2830d4dcb60",
+    "https://esm.sh/v57/prismjs@1.30.0/denonext/components/prism-jsx.js": "fca67fa7b9f2d132933c66e9270104ee88a5fce5a924ecabedb0c5697e3c7ee8",
+    "https://esm.sh/v57/prismjs@1.30.0/denonext/components/prism-makefile.js": "1d5316c33b9e230bd006b0369f9df2042394c1ab30ac6ba0245fdcdfbb094854",
+    "https://esm.sh/v57/prismjs@1.30.0/denonext/components/prism-python.js": "3d4ed3ed16f48f3ddffeb955c807b778e8151f11226cf6f76dd1b9a5ec63a4df",
+    "https://esm.sh/v57/prismjs@1.30.0/denonext/components/prism-typescript.js": "0858fd44070d9ad4bef7d27d8c75f24f58b99d77187429c8741e84d65c7e39e6",
+    "https://esm.sh/v57/prismjs@1.30.0/denonext/components/prism-vim.js": "57f3c212e623748dbe22c15aba45edcf9b52aeb9a7ae83d2478621110d9dd3ce",
+    "https://esm.sh/xml-js@1.6.11/denonext/xml-js.mjs": "e1863b42f0016edd5321d08aae2e92f6f856027ed813d5825a413fbbc0dfb875",
+    "https://esm.sh/xml-js@1.6.11?target=denonext": "9f30bf1857f9da9c902c290b59f6b399c973d3dc7e35f11c5db2502aad733f63"
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:preact@^10.27.0"
+    ]
+  }
+}

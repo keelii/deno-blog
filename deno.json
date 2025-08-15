@@ -1,0 +1,28 @@
+{
+  "tasks": {
+    "dev": "deno run -A --env-file=.dev.env --watch main.ts",
+    "start": "deno run -A --env-file=.prd.env main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "lint": {
+    "files": {
+      "exclude": ["*.ts", "*.tsx", "utils/", "routes/", "static/", "content/"]
+    },
+    "rules": {}
+  },
+  "fmt": {
+    "files": {
+      "include": ["component/", "config/", "routes/", "utils", "*.ts"],
+      "exclude": ["fresh.gen.ts"]
+    },
+    "options": {
+      "lineWidth": 120
+    }
+  },
+  "imports": {
+    "preact": "npm:preact@^10.27.0"
+  }
+}
